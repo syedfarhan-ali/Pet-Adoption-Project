@@ -3,13 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet Adoption</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
+    <header>
+        <h1>Fill a Form</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="form.html">Adopt a Pet</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="container">
-        <h2>Pet Adoption Form</h2>
-        <form action="submit_pet.php" method="POST">
+        <!-- <h2>Pet Adoption Form</h2> -->
+        <form action="submit_pet.php" method="POST" class="form-container">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
             
